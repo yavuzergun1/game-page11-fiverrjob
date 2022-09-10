@@ -188,6 +188,18 @@ header {
 .window-bottom-second{
     @extend .window-top-first;
    }
+   .window-bottom-third{
+    @extend .window-top-first;
+   }
+   .window-bottom-fourth{
+    @extend .window-top-first;
+   }
+   .window-bottom-fifth{
+    @extend .window-top-first;
+   }
+   .window-bottom-sixth{
+    @extend .window-top-first;
+   }
 .player{
     transform: translate(-30px);
 }
@@ -234,13 +246,14 @@ height: 380px;
   .menu{
     margin-left: 50px;
   }
-  .window-bottom-first, .window-bottom-second, .window-top-third,.window-top-fourth,.window-top-fifth, .window-top-sixth{
-    padding-left: 5px;
-  }
+
   .window-bottom-first{
    p:nth-child(5){
     transform: translate(10px);
    }
+}
+.window-bottom-first, .window-bottom-second, .window-bottom-third, .window-bottom-fourth, .window-bottom-fifth, .window-bottom-sixth{
+    padding-left: 5px;
 }
   .country{
     width: 60px;

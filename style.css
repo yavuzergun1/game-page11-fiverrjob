@@ -110,7 +110,7 @@ header .back {
   transform: translate(-10px);
 }
 
-.window-top-first, .window-bottom-second, .window-bottom-first, .window-top-second, .window-top-sixth, .window-top-fifth, .window-top-fourth, .window-top-third {
+.window-top-first, .window-bottom-sixth, .window-bottom-fifth, .window-bottom-fourth, .window-bottom-third, .window-bottom-second, .window-bottom-first, .window-top-second, .window-top-sixth, .window-top-fifth, .window-top-fourth, .window-top-third {
   width: 96%;
   height: 20px;
   display: flex;
@@ -120,10 +120,10 @@ header .back {
   background-color: rgb(22, 21, 34);
   border-radius: 10px;
 }
-.window-top-first img:first-child, .window-bottom-second img:first-child, .window-bottom-first img:first-child, .window-top-second img:first-child, .window-top-sixth img:first-child, .window-top-fifth img:first-child, .window-top-fourth img:first-child, .window-top-third img:first-child {
+.window-top-first img:first-child, .window-bottom-sixth img:first-child, .window-bottom-fifth img:first-child, .window-bottom-fourth img:first-child, .window-bottom-third img:first-child, .window-bottom-second img:first-child, .window-bottom-first img:first-child, .window-top-second img:first-child, .window-top-sixth img:first-child, .window-top-fifth img:first-child, .window-top-fourth img:first-child, .window-top-third img:first-child {
   width: 11%;
 }
-.window-top-first img:nth-child(2), .window-bottom-second img:nth-child(2), .window-bottom-first img:nth-child(2), .window-top-second img:nth-child(2), .window-top-sixth img:nth-child(2), .window-top-fifth img:nth-child(2), .window-top-fourth img:nth-child(2), .window-top-third img:nth-child(2) {
+.window-top-first img:nth-child(2), .window-bottom-sixth img:nth-child(2), .window-bottom-fifth img:nth-child(2), .window-bottom-fourth img:nth-child(2), .window-bottom-third img:nth-child(2), .window-bottom-second img:nth-child(2), .window-bottom-first img:nth-child(2), .window-top-second img:nth-child(2), .window-top-sixth img:nth-child(2), .window-top-fifth img:nth-child(2), .window-top-fourth img:nth-child(2), .window-top-third img:nth-child(2) {
   width: 140px;
   height: 20px;
 }
@@ -227,11 +227,11 @@ header .back {
   .menu {
     margin-left: 50px;
   }
-  .window-bottom-first, .window-bottom-second, .window-top-third, .window-top-fourth, .window-top-fifth, .window-top-sixth {
-    padding-left: 5px;
-  }
   .window-bottom-first p:nth-child(5) {
     transform: translate(10px);
+  }
+  .window-bottom-first, .window-bottom-second, .window-bottom-third, .window-bottom-fourth, .window-bottom-fifth, .window-bottom-sixth {
+    padding-left: 5px;
   }
   .country {
     width: 60px;
