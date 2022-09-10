@@ -227,12 +227,29 @@ header {
 height: 380px;
 }
 
-  @media (max-width: 808) {
+  @media (max-width: 808px) {
     header {
     width: 550px;
   }
   .menu{
     margin-left: 50px;
+  }
+  .window-bottom-first{
+   p:nth-child(5){
+    transform: translate(10px);
+   }
+}
+  .country{
+    width: 60px;
+  }
+  .bottom-red{
+    transform: translate(-30px);
+  }
+  .player{
+    transform: translate(-20px);
+  }
+  .date{
+    transform: translate(-10px);
   }
   }
 }
