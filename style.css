@@ -227,6 +227,9 @@ header .back {
   .menu {
     margin-left: 50px;
   }
+  .window-bottom-first, .window-bottom-second, .window-top-third, .window-top-fourth, .window-top-fifth, .window-top-sixth {
+    padding-left: 5px;
+  }
   .window-bottom-first p:nth-child(5) {
     transform: translate(10px);
   }
