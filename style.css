@@ -110,7 +110,7 @@ header .back {
   transform: translate(-10px);
 }
 
-.window-top-first, .window-top-second, .window-top-sixth, .window-top-fifth, .window-top-fourth, .window-top-third {
+.window-top-first, .window-bottom-second, .window-bottom-first, .window-top-second, .window-top-sixth, .window-top-fifth, .window-top-fourth, .window-top-third {
   width: 96%;
   height: 20px;
   display: flex;
@@ -120,10 +120,10 @@ header .back {
   background-color: rgb(22, 21, 34);
   border-radius: 10px;
 }
-.window-top-first img:first-child, .window-top-second img:first-child, .window-top-sixth img:first-child, .window-top-fifth img:first-child, .window-top-fourth img:first-child, .window-top-third img:first-child {
+.window-top-first img:first-child, .window-bottom-second img:first-child, .window-bottom-first img:first-child, .window-top-second img:first-child, .window-top-sixth img:first-child, .window-top-fifth img:first-child, .window-top-fourth img:first-child, .window-top-third img:first-child {
   width: 11%;
 }
-.window-top-first img:nth-child(2), .window-top-second img:nth-child(2), .window-top-sixth img:nth-child(2), .window-top-fifth img:nth-child(2), .window-top-fourth img:nth-child(2), .window-top-third img:nth-child(2) {
+.window-top-first img:nth-child(2), .window-bottom-second img:nth-child(2), .window-bottom-first img:nth-child(2), .window-top-second img:nth-child(2), .window-top-sixth img:nth-child(2), .window-top-fifth img:nth-child(2), .window-top-fourth img:nth-child(2), .window-top-third img:nth-child(2) {
   width: 140px;
   height: 20px;
 }
@@ -156,7 +156,36 @@ header .back {
   background-color: rgb(255, 212, 72);
 }
 
-@media (max-width: 945px) {
+.bottom-green {
+  background-color: rgb(114, 183, 43);
+  transform: translate(-20px);
+}
+
+.bottom-red {
+  background-color: rgb(148, 8, 14);
+  transform: translate(-40px);
+}
+
+.country {
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 3px;
+  color: white;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.window-bottom-first p:nth-child(2) {
+  transform: translate(-10px);
+}
+
+.player {
+  transform: translate(-30px);
+}
+
+@media (max-width: 870px) {
   body {
     height: auto;
   }
@@ -191,7 +220,7 @@ header .back {
     height: 380px;
   }
 }
-@media (max-width: 945px) and (max-width: 730px) {
+@media (max-width: 870px) and (max-width: 808) {
   header {
     width: 550px;
   }

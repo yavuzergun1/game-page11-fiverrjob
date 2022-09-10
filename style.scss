@@ -160,7 +160,39 @@ header {
 .window-bottom{
     @extend .window-top;
 }
-@media (max-width: 945px) {
+.bottom-green{
+    background-color:rgb(114, 183, 43);
+    transform: translate(-20px);
+}
+.bottom-red{
+    background-color:rgb(148, 8, 14);
+    transform: translate(-40px);
+}
+.country{
+   width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+    font-size: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.window-bottom-first{
+   @extend .window-top-first;
+   p:nth-child(2){
+    transform: translate(-10px);
+   }
+}
+.window-bottom-second{
+    @extend .window-top-first;
+   }
+.player{
+    transform: translate(-30px);
+}
+
+@media (max-width: 870px) {
   body {
     height: auto;
   }
@@ -195,7 +227,7 @@ header {
 height: 380px;
 }
 
-  @media (max-width: 730px) {
+  @media (max-width: 808) {
     header {
     width: 550px;
   }
