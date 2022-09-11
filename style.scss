@@ -123,6 +123,15 @@ header {
 .window-top-second{
     @extend .window-top-first;
         height: 27px;
+        p:first-child{
+          width: 20%;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: .7rem;
+        }
+        p:nth-child(2){
+          width: 55%;
+          font-size: .5rem;
+        }
 }
 .level{
    width: 50px;
@@ -237,6 +246,12 @@ header {
   }
 .window-top{
 height: 380px;
+}
+.window-top-second{
+  p:nth-child(2){
+  width: 55%;
+  font-size: .4rem;
+  }
 }
 
   @media (max-width: 808px) {

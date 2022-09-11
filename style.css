@@ -131,6 +131,15 @@ header .back {
 .window-top-second, .window-top-sixth, .window-top-fifth, .window-top-fourth, .window-top-third {
   height: 27px;
 }
+.window-top-second p:first-child, .window-top-sixth p:first-child, .window-top-fifth p:first-child, .window-top-fourth p:first-child, .window-top-third p:first-child {
+  width: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+.window-top-second p:nth-child(2), .window-top-sixth p:nth-child(2), .window-top-fifth p:nth-child(2), .window-top-fourth p:nth-child(2), .window-top-third p:nth-child(2) {
+  width: 55%;
+  font-size: 0.5rem;
+}
 
 .level {
   width: 50px;
@@ -218,6 +227,10 @@ header .back {
   }
   .window-top, .window-bottom {
     height: 380px;
+  }
+  .window-top-second p:nth-child(2), .window-top-third p:nth-child(2), .window-top-fourth p:nth-child(2), .window-top-fifth p:nth-child(2), .window-top-sixth p:nth-child(2) {
+    width: 55%;
+    font-size: 0.4rem;
   }
 }
 @media (max-width: 870px) and (max-width: 808px) {
